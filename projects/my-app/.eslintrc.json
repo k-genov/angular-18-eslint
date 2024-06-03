@@ -8,6 +8,9 @@
       "files": [
         "*.ts"
       ],
+      "parserOptions": {
+        "project": "projects/my-app/tsconfig.app.json"
+      },
       "rules": {
         "@angular-eslint/directive-selector": [
           "error",
